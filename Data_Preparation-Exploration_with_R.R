@@ -1,9 +1,9 @@
-##Set Working Directory
+##Data Exploration and Preparation
+
+#Set Working Directory
 setwd("D:/Amey/Data_Sci/Data Wrangling")
 
-##Data Exploration and Preparation
 #Load Data
-#This dataset can be found on Remote Desktop Server
 cars<-read.csv("cars_retail_price.csv",header=TRUE,stringsAsFactors=FALSE)
 
 #Reviewing Structure
@@ -14,10 +14,10 @@ str(cars)
 head(cars)
 tail(cars)
 
-#Reviewing Summary
+#adding required libraries
 library(datasets)
+
 #for numeric variables
-summary(airquality) 
 summary(cars)
 
 #for categorical variables
